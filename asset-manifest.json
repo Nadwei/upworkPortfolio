@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github.io/upworkPortfolio/static/css/main.4e650c31.css",
+    "main.js": "/github.io/upworkPortfolio/static/js/main.f4f13537.js",
+    "static/js/787.c881879f.chunk.js": "/github.io/upworkPortfolio/static/js/787.c881879f.chunk.js",
+    "index.html": "/github.io/upworkPortfolio/index.html",
+    "main.4e650c31.css.map": "/github.io/upworkPortfolio/static/css/main.4e650c31.css.map",
+    "main.f4f13537.js.map": "/github.io/upworkPortfolio/static/js/main.f4f13537.js.map",
+    "787.c881879f.chunk.js.map": "/github.io/upworkPortfolio/static/js/787.c881879f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e650c31.css",
+    "static/js/main.f4f13537.js"
+  ]
+}
