@@ -8,7 +8,7 @@ import "../github-mark-white.png"
 
     export default function Header({ toggleMenu, menuActive }) {
       return (
-        <header id="contact-bar" className ={`head-div ${menuActive ? "active" : }`}>
+        <header id="contact-bar" className ={`head-div ${menuActive ? "active" : ''}`}>
           <div className="name">Nate Hammond</div>
           <a className="github-link" href="https://github.com/Nadwei" target="_blank">
             <img src="github-mark-white.png" alt="GitHub" />

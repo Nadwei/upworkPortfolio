@@ -4,7 +4,7 @@ import Projects from "./pages/Projects";
 import Header from "./components/Header";
 import About from "./components/About";
 import Intro from "./components/Intro";
-import Main from "./pages/Projects";
+
 
 
 export default function App() {
@@ -20,7 +20,7 @@ export default function App() {
       <Header toggleMenu={toggleMenu} />
       <Intro />
       <Main />
-      {/* Conditional rendering of the navigation links */}
+      /* Conditional rendering of the navigation links */
       <nav className={`nav-links ${menuActive ? 'active' : ''}`}>
         <a className="nav-link contact" href="#">
           Contact
