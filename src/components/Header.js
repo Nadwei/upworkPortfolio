@@ -8,7 +8,7 @@ import './App.css';
     export default function Header({ toggleMenu, menuActive }) {
       return (
         <header className="head-div">
-          <h3 className="name">Nathan K Hammond</h3>
+          <h3 className="name">Nate Hammond</h3>
           <div className="menu-icon" onClick={toggleMenu}>
             <div className="bar"></div>
             <div className="bar"></div>

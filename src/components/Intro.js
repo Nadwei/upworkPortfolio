@@ -7,11 +7,11 @@ export default function Intro(){
     return(
 
     <div id="intro">
-        <p class="intro-body">
-             <span class="hello">Hello,</span><br/>
+        <p className="intro-body">
+             <span className="hello">Hello,</span><br/>
              I'm a web developer with a background in responsive design, 
-             React, Javascript, and data scraping.
-            <span class="lets-talk"> Let's talk.</span>
+             React, Javascript, and simple data scraping apps.
+            <span className="lets-talk"> Let's talk!</span>
         </p>
     </div>
     )}

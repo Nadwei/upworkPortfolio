@@ -1,10 +1,10 @@
 import './App.css';
 import React, { useState } from 'react';
-import Projects from "./Projects";
-import Header from "./Header";
+import Projects from "./components/Projects";
+import Header from "./components/Header";
 import About from "./About";
-import Intro from "./Intro";
-import Main from "./Main";
+import Intro from "./components/Intro";
+import Main from "./components/Main";
 
 
 export default function App() {

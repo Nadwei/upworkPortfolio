@@ -6,7 +6,7 @@ import './App.css';
 export default function Projects(){
     return(
         <div id="projects">
-            <h2 class="projects-headline">Projects</h2>
+            <h2 className="projects-headline">Projects</h2>
             <div className="project-1">
                 <h3>Simple Web Scraper</h3>
                 
