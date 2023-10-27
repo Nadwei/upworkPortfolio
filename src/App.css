@@ -74,9 +74,9 @@ body{
 
 
 
-@media and (min-width: 503px) and (min-height:606px) {
+/* @media (min-width: 503px) and (min-height:606px) {
 {font-size: 10px;}
-}
+} */
 
 
 #intro{
