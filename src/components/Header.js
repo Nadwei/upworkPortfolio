@@ -1,5 +1,6 @@
 import React, {useState } from "react";
-import './App.css';
+import '../App.css';
+import "../github-mark-white.png"
 
 
 
@@ -7,8 +8,12 @@ import './App.css';
 
     export default function Header({ toggleMenu, menuActive }) {
       return (
-        <header className="head-div">
-          <h3 className="name">Nate Hammond</h3>
+        <header id="contact-bar" className ={`head-div ${menuActive ? "active" : }`}>
+          <div className="name">Nate Hammond</div>
+          <a className="github-link" href="https://github.com/Nadwei" target="_blank">
+            <img src="github-mark-white.png" alt="GitHub" />
+          </a>
+          <a className="email-link" href="mailto:NateTheDev62@protonmail.com">NateTheDev62@protonmail.com</a>
           <div className="menu-icon" onClick={toggleMenu}>
             <div className="bar"></div>
             <div className="bar"></div>
