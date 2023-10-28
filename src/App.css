@@ -93,10 +93,8 @@ body{
   display:flex;
   color: #3c3f4d;
   text-align:left;
-  margin-left: 1rem;
-  padding-top: 20%;
-  margin-right: 17%;
-  padding-left: 0.7rem;
+  padding-top: 35%;
+  
 }
 
 .intro-body{
@@ -107,7 +105,8 @@ body{
   text-align:left;
   display:flex;
   flex-direction:column;
-  padding-left:2rem;
+  width:80%;
+  margin:0 auto;
 
   /* border-left: solid 3.3px #1A1E26; */
   
@@ -117,8 +116,9 @@ body{
 .lets-talk{
   color: #7DCEA0;
   font-size:34px;
-  margin-left: 6rem;
+  margin-left: 9.8rem;
   font-weight:600;
+  margin-top:1rem;
 }
 
 
