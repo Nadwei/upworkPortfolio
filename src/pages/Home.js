@@ -1,26 +1,15 @@
-import react from React
+import React from "react"
 import Intro from "../components/Intro";
-import Main from "./Projects";
-import Contact from "../components/Contact";
-import About from "../components/About";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 
 export default function Home(){
     return (
         <div>
-          <Header toggleMenu={toggleMenu} />
+          <Header />
           <Intro />
-          <Main />
-          {/* Conditional rendering of the navigation links */}
-          <nav className={`nav-links ${menuActive ? 'active' : ''}`}>
-            <a className="nav-link contact" href="#">
-              Contact
-            </a>
-            <a className="nav-link about" href="#">
-              About
-            </a>
-          </nav>
+          <Footer />
         </div>
       );
 }

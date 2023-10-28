@@ -2,6 +2,8 @@
 body{
   background-color:#F0E8E8;
   color: #1A1E26;
+  margin-bottom:0px;
+  height:100vh;
 }
 
 /* colors:
@@ -28,8 +30,8 @@ body{
 }
 
 .name{
-  font-size:22px;
-  margin-left:1.5em;
+  font-size:20px;
+  margin-left:2rem;
   font-weight:800;
 }
 
@@ -61,6 +63,12 @@ body{
   display: block;
 }
 
+.email-link {
+  color:#fff;
+  font-weight:600;
+  text-decoration:none;
+}
+
 /* Media query to hide the menu icon on larger screens */
 @media screen and (min-width: 769px) {
   .menu-icon {
@@ -68,8 +76,10 @@ body{
   }
 }
 .hello{
-  font-size: 62px;
+  font-size: 56px;
   color:#7DCEA0;
+  font-weight:600;
+  padding-top:1rem;
 }
 
 
@@ -82,36 +92,33 @@ body{
 #intro{
   display:flex;
   color: #3c3f4d;
-  text-align:center;
-  margin-left: 2em;
-  margin-top: 3em;
-  margin-right: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
+  text-align:left;
+  margin-left: 1rem;
+  padding-top: 20%;
+  margin-right: 17%;
+  padding-left: 0.7rem;
 }
 
 .intro-body{
-  font-size: 26px;
-  letter-spacing: 0.02em;
-  line-height:1.4em;
+  font-size: 23.5px;
+  letter-spacing: 0.12rem;
+  line-height:2.35rem;
   font-weight:500;
   text-align:left;
   display:flex;
   flex-direction:column;
-  padding-left:3rem;
-  padding-right:0.7rem;
-  border-left: solid 3px #1A1E26;
+  padding-left:2rem;
+
+  /* border-left: solid 3.3px #1A1E26; */
+  
 
 }
 
 .lets-talk{
   color: #7DCEA0;
   font-size:34px;
-  margin-left: 3rem;
-  margin-top:3rem;
-  font-weight:500;
-  
-
+  margin-left: 6rem;
+  font-weight:600;
 }
 
 
@@ -161,7 +168,7 @@ body{
   border-radius:1em;
 }
 
-#contact-bar {
+#header {
   position: fixed;
   top: 0;
   left: 0;
@@ -170,33 +177,51 @@ body{
   color: #fff;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 10px;
   z-index: 999; /* Ensures it's above other content */
 }
 
-#name {
-  margin-left: 20px;
-  font-size: 20px;
-}
 
 /* contact links... */
 
-#github-link {
-  margin-right: 20px;
+#contact-bar {
+  font-size:15px;
+  letter-spacing:0.05rem;
+  align-items:center;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  padding:4.5px;
+  z-index: 999; /* Ensures it's above other content */
+  padding-right:3rem;
+  position:fixed;
+  bottom:0;
 }
+
+
+/* #github-link {
+  margin-right: 20px;
+} */
 
 #github-link img {
   width: 20px;
   height: 20px;
 }
 
-#email-link {
-  margin-right: 20px;
+.gh-logo {
+    margin-left: 0.5rem;
+    margin-right:0.5rem;
+    width: 2rem;
+}
+
+.email-link {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
+  
 }
+
+
 
 
 

@@ -3,7 +3,7 @@ import demoLandingPageScreenshotEnlarged from '../demoLandingPageScreenshotEnlar
 import "../App.css";
 
 
-export default function Main(){
+export default function Projects(){
 
 const landingPageScreenshot = new Image();
 landingPageScreenshot.src = "../demoLandingPageEnlarged.png";
